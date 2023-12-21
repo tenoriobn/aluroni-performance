@@ -1,0 +1,30 @@
+.sobreNos {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.sobreNos__texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: justify;
+}
+.sobreNos__texto p {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.imagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.imagens__imagem {
+  width: 600px;
+}
+.imagens__imagem img {
+  border-radius: 5px;
+  width: 100%;
+}/*# sourceMappingURL=Sobre.module.css.map */

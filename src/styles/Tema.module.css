@@ -1,0 +1,24 @@
+.container {
+  padding: 50px 250px;
+}
+@media (max-width: 980px) {
+  .container {
+    padding: 50px 100px;
+  }
+}
+@media (min-width: 980px) and (max-width: 1080px) {
+  .container {
+    padding: 50px 150px;
+  }
+}
+@media (min-width: 1080px) and (max-width: 1280px) {
+  .container {
+    padding: 50px 200px;
+  }
+}
+
+.titulo {
+  color: #242536;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=Tema.module.css.map */
