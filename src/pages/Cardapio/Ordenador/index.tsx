@@ -1,6 +1,6 @@
 import styles from './Ordenador.module.scss';
 import opcoes from './opcoes.json';
-import React, { useState } from 'react';
+import React, { memo, useState } from 'react';
 import classNames from 'classnames';
 import { MdKeyboardArrowUp, MdKeyboardArrowDown } from 'react-icons/md';
 
@@ -9,7 +9,7 @@ interface Props {
   setOrdenador: React.Dispatch<React.SetStateAction<string>>
 }
 
-export default function Ordenador({
+function Ordenador({
   ordenador,
   setOrdenador
 }: Props) {
@@ -39,3 +39,5 @@ export default function Ordenador({
     </button>
   );
 }
+
+export default memo(Ordenador);
