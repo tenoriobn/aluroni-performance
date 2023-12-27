@@ -24,7 +24,7 @@ function Ordenador({
       onClick={() => setAberto(!aberto)}
       onBlur={() => setAberto(false)}
     >
-      <span>{nomeOrdenador || 'Ordenar Por'}</span>
+      <span>{nomeOrdenador || 'Ordenar Por'}</span>      
       {aberto ? <MdKeyboardArrowUp size={20} /> : <MdKeyboardArrowDown size={20} /> }
       <div className={classNames({
         [styles.ordenador__options]: true,
